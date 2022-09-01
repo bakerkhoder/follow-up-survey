@@ -1,0 +1,121 @@
+.Survey-container{
+    display: flex;
+    flex-flow: column;
+    height: 600px;
+}
+.Main{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.Header{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;
+    font-size:small;
+   justify-content: center;
+   padding-bottom: 5px;
+}   
+.Body-content{
+    height:fit-content;
+    display: flex;
+    
+    flex-flow: column;
+    background-color:rgb(204, 202, 202);
+    
+}
+.Row{
+    margin-inline: 10px;
+   
+
+}
+.Col1{
+    width:45%;
+    float: left;
+    
+   
+}
+.Col2{
+    width:45%;
+    float: right;
+   
+   
+}
+.Labels{
+    font-size:7px !important;
+        color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.Date{
+    
+    border-radius: 5px;
+    width: auto;
+    width: 100%;
+}
+.Input1{
+   
+    border-radius: 5px;
+    width: 100%;
+}
+.Single-radio{
+    display: flex;
+    flex-direction: row;
+  
+}
+.Rowfinal{
+    text-align: justify;
+
+}
+.Rowfinal :after{
+    content:"";
+    display: inline-block;
+    width: 100%;
+}
+
+.Submit{
+    margin-top: 10px;
+    margin-bottom: 10px;   
+    position: relative;
+    right: 40%;
+    left: 40%;
+    text-align: center;
+    width: 20%;
+    color: #fff;
+    background-image: linear-gradient(black,gray );
+    border-radius: 5px;
+}
+.Datee{
+    font-size: 5px;
+}
+textarea{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+  
+}
+@media screen and (max-width:1000px){
+    .Survey-container{
+        width: 320px;
+        height: fit-content;
+    }
+             
+        
+   h1 {
+      font-size: 20px;
+    }
+        
+}
+@media screen and (max-width:320px) {
+.Main{
+  height: fit-content;
+  padding-top: 0px;
+}
+}
